@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `addagroproducts`
 --
-
+CREATE DATABASE farmers;
+USE farmers;
 CREATE TABLE `addagroproducts` (
   `username` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
